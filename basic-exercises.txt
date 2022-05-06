@@ -1,0 +1,65 @@
+
+
+1/ kiểm tra năm nhuận
+- Tại terminal, input arg [năm]
+go run main.go [năm]
+- Nếu không input hoặc input nhiều hơn số lượng arg chỉ định
+output message warning
+- Nếu giá trị của arg không phải số
+output message waring
+- Nếu giá trị của arg là số, thì kiểm tra có phải là năm nhuận không
+output message với kq tương ứng
+
+2/ output ra terminal số ngày của tháng trong năm hiện tại
+- Tại terminal, input arg [tháng]
+format [tháng] thì tuỳ ý
+chẳng hạn như 01,02,...,12 hoặc january, february,...december
+- output ra terminal số ngày của tháng được input trong năm hiện tại
+
+3/ output ra terminal số ngày của tháng trong năm bất kỳ [YYYY/MM]
+
+4/ validate cho 1 user (xài if)
+
+- Tại terminal, input arg [user] [pass]
+Kiểm tra có phải là user bên dưới ko
+user: A
+pass: 123456
+
+- Nếu [user]  khác A
+output Access denied for [user]
+- Nếu pass khác 123456
+ouput Invalid password for [user]
+- Nếu [user] [pass] math với A và 123456
+ouput Access granted to [user]
+
+5/ Tương tự 3 nhưng xài switch case
+
+6/ validate cho 2 user (tương tự validate 1 user)
+
+- Tại terminal, input arg [user] [pass]
+Kiểm tra xem có phải là 1 trong 2 user bên dưới ko
+
+user1: A
+pass: 123456
+
+user2: B
+pass: 234567
+
+7/ convert feet-to-meters
+- input số feet, output số meters
+
+8/ output ra terminal table như dưới (xài loop)
+    X    0    1    2    3    4    5
+    0    0    0    0    0    0    0
+    1    0    1    2    3    4    5
+    2    0    2    4    6    8   10
+    3    0    3    6    9   12   15
+    4    0    4    8   12   16   20
+    5    0    5   10   15   20   25
+
+9/ output ra terminal table tương tự như 7/ nhưng với size get từ input
+chẳng hạn: input 4 -> size table là 4x4
+
+10/ output ra terminal ngày cuối tháng của tháng trong năm bất kỳ [YYYY/MM]
+input 2021/11
+output 2021/11/30
